@@ -3,7 +3,7 @@ import { Check, Calendar, MapPin, Users, Target, TrendingUp, AlertOctagon } from
 import mentoresAsset from "../assets/lidera-mentores-v2.jpg.asset.json";
 import alessandraAsset from "../assets/lidera-alessandra-v3.jpg.asset.json";
 import eduAsset from "../assets/lidera-edu-v2.jpg.asset.json";
-import logoAsset from "../assets/lidera-logo.png";
+import logoAsset from "../assets/lidera-logo.png.asset.json";
 import heroBg from "../assets/hero-bg.jpg";
 import { Reveal } from "../components/Reveal";
 import { WordReveal } from "../components/WordReveal";
