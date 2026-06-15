@@ -3,13 +3,14 @@ import { Check, Calendar, MapPin, Users, Target, TrendingUp, AlertOctagon } from
 import { Reveal } from "../components/Reveal";
 import { WordReveal } from "../components/WordReveal";
 import { ProgressBar } from "../components/ProgressBar";
+import heroBg from "../assets/hero-bg.jpg";
 
-// IMAGENS - caminhos diretos para pasta public/images
+// Imagens variaveis
 const mentoresImg = "/images/lidera-mentores-v2.jpg";
 const alessandraImg = "/images/lidera-alessandra-v3.jpg";
 const eduImg = "/images/lidera-edu-v2.jpg";
 const logoImg = "/images/lidera-logo.png";
-const heroBgImg = "/images/hero-bg.jpg";
+const heroBgImg = heroBg;
 
 
 export const Route = createFileRoute("/")({
