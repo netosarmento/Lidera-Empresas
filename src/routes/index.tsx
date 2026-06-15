@@ -1,19 +1,15 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Check, Calendar, MapPin, Users, Target, TrendingUp, AlertOctagon } from "lucide-react";
-import mentoresAsset from "../assets/lidera-mentores-v2.jpg.asset.json";
-import alessandraAsset from "../assets/lidera-alessandra-v3.jpg.asset.json";
-import eduAsset from "../assets/lidera-edu-v2.jpg.asset.json";
-import heroBg from "../assets/hero-bg.jpg";
 import { Reveal } from "../components/Reveal";
 import { WordReveal } from "../components/WordReveal";
 import { ProgressBar } from "../components/ProgressBar";
 
-const mentoresImg = mentoresAsset.url;
-const alessandraImg = alessandraAsset.url;
-const eduImg = eduAsset.url;
-const logoImg = "/images/lidera-logo.png";  
-const heroBgImg = heroBg;
-
+// IMAGENS - caminhos diretos para pasta public/images
+const mentoresImg = "/images/lidera-mentores-v2.jpg";
+const alessandraImg = "/images/lidera-alessandra-v3.jpg";
+const eduImg = "/images/lidera-edu-v2.jpg";
+const logoImg = "/images/lidera-logo.png";
+const heroBgImg = "/images/hero-bg.jpg";
 
 
 export const Route = createFileRoute("/")({
